@@ -43,6 +43,7 @@ public class WordCount {
         }
         else{
             System.out.println("Invalid choice!");
+            System.exit(1);
         }
 
         String[] words = inputText.split("[\\s\\p{Punct}]+");
